@@ -4,7 +4,9 @@ import useArray from '../Hooks/useArray';
 
 function ArrayComponent() {
   // eslint-disable-next-line object-curly-newline
-  const { array, set, push, filter, update, remove, clear } = useArray([1, 2, 3, 4, 5, 6, 7]);
+  const { array, set, push, filter, update, remove, clear } = useArray([
+    1, 2, 3, 4, 5, 6, 7,
+  ]);
 
   return (
     <>
