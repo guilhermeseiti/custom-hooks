@@ -1,11 +1,10 @@
-// import ToggleComponent from './components/ToggleComponent';
-import UpdateComponent from './components/UpdateComponet';
+import PreviousComponent from './components/PreviousComponent';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <UpdateComponent />
+      <PreviousComponent />
     </div>
   );
 }
